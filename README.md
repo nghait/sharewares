@@ -22,11 +22,11 @@ Type for help:
 $ python convertgbk.py -h
 
 Syntax to convert multiple gbk file to single gbk file:
-$ python convertgbk.py -i <inputfile> -o <outputfile>
+$ python convertgbk.py -i \<inputfile> -o \<outputfile>
 
 or of cause use canonical chmod +x to make it executable.
 
-$ ./convertgbk.py -i <inputfile> -o <outputfile>
+$ ./convertgbk.py -i \<inputfile> -o \<outputfile>
 
 example of use:
 
