@@ -4,7 +4,7 @@
 import sys, getopt
 if len(sys.argv) > 5 \
    or len(sys.argv) == (4 or 3):
-   print 'Syxtax error, please check your parameters'
+   print 'Syntax error, please check your parameters'
    # print len(sys.argv)
    sys.exit(1)
 
