@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# $ which python # to your favorite
 
 import sys, getopt
 if len(sys.argv) > 5 \
