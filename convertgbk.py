@@ -45,8 +45,8 @@ def main(argv):
    namefile = str(outputfile)
    for rec in SeqIO.parse(open(infile,"r"), "genbank"):
          gbkrec += rec
-         gbkrec.id = "mergedseq"
-         gbkrec.description = "merged seq"
+         gbkrec.id = "gbkseq"
+         gbkrec.description = "gbk seq"
          SeqIO.write(gbkrec, namefile + '.gbk', "genbank")
          
    print 'Output file', namefile + '.gbk', 'has been successfully generated!'
