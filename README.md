@@ -1,5 +1,5 @@
 # sharewares/convertgbk.py   
-Bioinformatics makes life easier especially for biginner, it was just scorching search online and I found how to convert multiple gbk to single one.
+Bioinformatics makes life easier especially for biological biginner, it was just scorching search online and I found how to convert multiple gbk to single one.
 It's got made a little nicer to run, this program is in the hope that it can help someone save time or just enjoy the code.
 
 ---About me---convertgbk.py Version 1.1 designed by Nguyen Hai Tuan at National Institute of Hygiene and Epidemiology, Hanoi, Vietnam.
