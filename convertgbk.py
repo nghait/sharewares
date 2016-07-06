@@ -43,10 +43,10 @@ def main(argv):
    gbkrec =''
    infile = inputfile
    namefile = str(outputfile)
-   for rec in SeqIO.parse(open(infile,"r"), "genbank"):
+   for rec in SeqIO.parse(open(infile,"rU"), "genbank"):
          gbkrec += rec
-         gbkrec.id = "gbkseq"
-         gbkrec.description = "gbk seq"
+         gbkrec.id = "genome"
+         gbkrec.description = "combination of gbk sequences"
          SeqIO.write(gbkrec, namefile + '.gbk', "genbank")
          
    print 'Output file', namefile + '.gbk', 'has been successfully generated!'
