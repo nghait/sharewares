@@ -49,9 +49,15 @@ def main(argv):
          gbkrec.description = "combination of gbk sequences"
          SeqIO.write(gbkrec, namefile + '.gbk', "genbank")
          
-   print 'Output file', namefile + '.gbk', 'has been successfully generated!'
-   print '----------------------------------------------'
-   print 'Thank you for using single genbank file converter'   
-
+   Nfile=str(namefile+'.gbk')
+   import os.path
+   if os.path.isfile(Nfile) and os.access(Nfile, os.R_OK):
+         print 'Output file', namefile + '.gbk', 'has been successfully generated!'
+         print '----------------------------------------------'
+         print 'Thank you for using single genbank file converter'   
+   else:
+         print 'Sorry ! File type is not suitable to be converted !!!' 
+         print 'You need to provide a multiple genbank file as input, please check your input file.'
+         sys.exit(2)
 if __name__ == "__main__":
    main(sys.argv[1:])
