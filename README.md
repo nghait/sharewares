@@ -35,5 +35,7 @@ $ ./convertgbk.py -i mygenome.gbk -o MerGed
 Where mygenome.gbk is the multiple gbk file to convert and MerGed is the core name given to output file (MerGed.gbk for instance).
 It is resulting MerGed.gbk, which is the single gbk file.
 
+The same principle could be applied to convert multiple fasta file to single fasta file, We shared as convertfasta.py in the same clone. 
+
 Finally, to run in batch mode or in pipe, it's your pool to swim. 
 Good Luck!
