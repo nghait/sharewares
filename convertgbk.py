@@ -9,7 +9,7 @@ if len(sys.argv) > 5 \
    sys.exit(1)
 
 if len(sys.argv) == 1:
-   print '---About me---convertgbk.py Version 1.1 designed by Nguyen Hai Tuan'
+   print '---About me---convertgbk.py Version 1.1 designed by Nguyen Hai Tuan.'
    print 'You are free to use, modify and redistribute this program, the author has neither responsibility for your well-being nor the accuracy of your data.'
    print 'The converter convertgbk.py program was designed to convert multiple genbank file to single genbank file.'
    print 'Type \"python convertgbk.py -h\" for help on the converter.'
