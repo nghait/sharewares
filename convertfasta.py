@@ -8,7 +8,7 @@ if len(sys.argv) > 5 \
    sys.exit(1)
 
 if len(sys.argv) == 1:
-   print '---About me---convertfasta.py Version 1.1 designed by code and meaning.'
+   print '---About me---convertfasta.py Version 1.1 designed by inspiration of code and meaning.'
    print 'You are free to use, modify and redistribute this program, the author has neither responsibility for your well-being nor the accuracy of your data.'
    print 'The converter convertfasta.py program was designed to convert multiple fasta file to single fasta file.'
    print 'Type \"python convertfasta.py -h\" for help on the converter.'
