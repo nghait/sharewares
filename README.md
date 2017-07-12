@@ -2,7 +2,7 @@
 Bioinformatics makes life easier especially for biological beginner, it was just a scorching search online and I found how to convert multiple gbk to single one.
 It's got made a little nicer to run, this program is a ray in the hope that it can help someone save time or just simply enjoy the code.
 
----About me---convertgbk.py Version 1.1 designed by Nguyen Hai Tuan.
+---About me---convertgbk.py Version 1.1 designed by inspiration of code and meaning.
 You are free to use, modify and redistribute this program, the author has neither responsibility for your well-being nor the accuracy of your data.
 The converter convertgbk.py program was designed to convert multiple genbank file to single genbank file.
 This is designed for use in Linux and not tested in other operating systems, and the current document is not a comprehensive explanation how to use provided code.
