@@ -16,7 +16,7 @@ Super easy as download-and-run it in the current working directory, or make PATH
 
 Dependencies:
 
-There are dependencies as required to run Python 3, Piopython 1.6 on Linux like system (Ubuntu 14 or higher, no hint for earlier born)
+There are dependencies as required to run Python 3, Biopython 1.6 on Linux like system (Ubuntu 14 or higher, no hint for earlier born)
 
 Type for help:
 $ python convertgbk.py -h
